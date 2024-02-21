@@ -5,3 +5,4 @@ sudo dnf install akmod-nvidia-470xx --disablerepo rpmfusion-nonfree-nvidia-drive
 echo -e "\n Sleeping for 5 min \n"
 sleep 300 #seconds / 5min
 dnf list installed *nvidia*
+#this seemed to work for me
