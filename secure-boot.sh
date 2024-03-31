@@ -11,3 +11,6 @@ sudo mokutil --import /etc/pki/akmods/certs/public_key.der
 sudo reboot #again, not my choice
 sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-libs.i686 
 modinfo -F version nvidia 
+sudo akmods --force 
+sudo dracut --force 
+sudo reboot
